@@ -2,7 +2,7 @@
 1、 使用技术
 ```text
 
- 热更新、ES6/7、scss、bable7,vue-route、vue、vuex、webpack4、async／await、前端node服务器，按需加载...
+ 热更新、ES6/7、scss、bable7,react-route、react、redux、webpack4、async／await、前端node服务器，按需加载...
 
 ```
 
