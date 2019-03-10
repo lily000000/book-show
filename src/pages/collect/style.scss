@@ -1,0 +1,16 @@
+.bookRack{
+    .book-item{
+        margin-bottom: .253333rem;
+        cursor: pointer;
+        .book-wrap{
+            display: flex;
+            padding: .266667rem;
+            justify-content:space-around;
+            .imgicon{
+                width: 3.6rem;
+                height: 4rem;
+                margin-right: .133333rem;
+            }
+        }
+    }
+}

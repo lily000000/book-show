@@ -1,0 +1,90 @@
+.main-layout{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    .container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 1.333333rem;
+        overflow-y: auto;
+    }
+    .footer_nav{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: .266667rem;
+        line-height: .266667rem;
+        bottom: 0;
+        left: 0;
+        color: #888888;
+        height: 1.333333rem;
+        background: #FFFFFF;
+        box-shadow: inset 0 1px 0 0 #DDDDDD;
+        a{
+            color: #888888;
+        }
+        .nav_item{
+            padding: 0 .266667rem;
+            .icon_img{
+                width: .613333rem;
+                height: .613333rem;
+                margin-bottom: .106667rem;
+                background-size: .613333rem .613333rem;
+            }
+            &:nth-child(1){
+                .icon_img{
+                    background-image: url('../../../public/assets/images/大盘@2x.png');
+                }
+           }
+           &:nth-child(2){
+               .icon_img{
+                background-image: url('../../../public/assets/images/品牌@2x.png');
+               } 
+           }
+           &:nth-child(3){
+               .icon_img{
+                background-image: url('../../../public/assets/images/商品@2x.png');
+               }
+              
+           }
+           &:nth-child(4){
+               .icon_img{
+                background-image: url('../../../public/assets/images/会员@2x.png');
+               }   
+           }
+           &.active{
+                color: #E8483A;
+                a{
+                    color: #E8483A;
+                }
+                &:nth-child(1){
+                    .icon_img{
+                        background-image: url('../../../public/assets/images/大盘-选中@2x.png');
+                    }
+               }
+               &:nth-child(2){
+                   .icon_img{
+                    background-image: url('../../../public/assets/images/品牌-选中@2x.png');
+                   }    
+               }
+               &:nth-child(3){
+                   .icon_img{
+                    background-image: url('../../../public/assets/images/商品-选中@2x.png');
+                   }  
+               }
+               &:nth-child(4){
+                   .icon_img{
+                       background-image: url('../../../public/assets/images/会员-选中@2x.png');
+                   }
+                }
+            }
+        }
+        
+    }
+}

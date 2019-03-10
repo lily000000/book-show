@@ -1,0 +1,60 @@
+{
+    "success": true,
+    "message": "执行成功~~",
+    "data":{
+      "topNav":[
+        {
+          "id": 11,
+          "parentId": 1,
+          "permissionName": "大盘",
+          "permissionIcon": "",
+          "permissionUrl": "/index",
+          "children": []
+        }
+      ],
+      "sideNav":[
+        {
+          "id": 21,
+          "parentId": 2,
+          "permissionName": "大盘",
+          "permissionIcon": "",
+          "permissionUrl": "/index",
+          "children": [
+           {
+            "id": 22,
+            "parentId": 2,
+            "permissionName": "分析页面",
+            "permissionIcon": "",
+            "permissionUrl": "/index/analysis",
+            "children": []
+           },
+           {
+            "id": 23,
+            "parentId": 2,
+            "permissionName": "表格搜索",
+            "permissionIcon": [],
+            "permissionUrl": "/index/role",
+            "children": []
+          },
+          {
+            "id": 24,
+            "parentId": 2,
+            "permissionName": "表格查询",
+            "permissionIcon": [],
+            "permissionUrl": "/index/searchTable",
+            "children": []
+          },
+          {
+            "id": 25,
+            "parentId": 2,
+            "permissionName": "标准列表",
+            "permissionIcon": [],
+            "permissionUrl": "/index/list",
+            "children": []
+          }
+        ]
+        }
+      ]
+    }
+  }
+  
